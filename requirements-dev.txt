@@ -1,0 +1,5 @@
+# A aplicação só usa a biblioteca padrão do Python (Tkinter) e o adb.
+# Estas dependências são opcionais ou só servem para desenvolvimento.
+pytest>=8
+Pillow>=10        # opcional: logótipo com melhor qualidade
+pyinstaller>=6    # opcional: gerar o .exe

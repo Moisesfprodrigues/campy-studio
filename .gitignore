@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Empacotamento
+build/
+dist/
+*.spec
+
+# Dados do utilizador (não vão para o GitHub)
+campy_studio_config.json
+logs_img.txt
+camara_app_config.json
+camara_app_baixados.txt
+
+# Fotos: a pasta raw/ existe no repositório, mas o conteúdo não
+raw/*
+!raw/.gitkeep
+
+# Editor / sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
